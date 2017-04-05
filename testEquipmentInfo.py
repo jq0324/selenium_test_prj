@@ -42,14 +42,7 @@ def work(browser):
             print("fail to open Equipmentinfo page...")
             writeLog()
             
-        '''
-        url = browser.current_url
-        print(url)
-        if url == "http://192.168.20.105:9110/dt/login/frameIndex.do":
-            print("success")
-        else:
-            print("failed")
-        '''
+
     except:
         print ("failure")
         writeLog()
