@@ -16,7 +16,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 def work(browser):
-    url =  "http://www.yun-ti.com"   #"http://192.168.20.105:9110/dt"
+    url =  "http://192.168.20.105:9110/dt"
     browser.get(url)
     try:
         browser.find_element_by_name('username').send_keys('zhengqiang')
